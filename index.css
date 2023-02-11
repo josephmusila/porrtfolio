@@ -182,7 +182,7 @@ input {
   color: rgb(194, 206, 231);
 }
 #projects{
-  height: 700px;
+  /* height: 700px; */
 }
 .projects-title{
   font-size: 40px;

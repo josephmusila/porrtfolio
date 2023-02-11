@@ -1,3 +1,13 @@
 .intro p{
-    font-size: 350;
+    font-size: 35px;
+    color: orangered;
+}
+#name{
+    font-size: 40px;
+    font-weight: bold;
+    color: orange;
+}
+.card-img-top{
+    width: 50px;
+    height: auto;
 }
