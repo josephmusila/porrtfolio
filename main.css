@@ -41,5 +41,5 @@ hr{
     padding: 10px;
 }
 #tickets, #agencies, #busses{
-    background-color: darkblue !important;
+    background-color: rgb(27, 27, 87) !important;
 }
