@@ -19,7 +19,7 @@
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 
-<body class="container">
+<body class="container-fluid">
     <div class="container">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top ">
             <div class="container-fluid">
@@ -83,7 +83,7 @@
                 <p>Projects Completed: <span id="tickets-booked"></span></p>
             </div>
             <div class="col  col-12 col-lg-4 " id="agencies">
-                <p>Happy Clients: <span id="agencies-open"></span></p>
+                <p>Repositories: <span id="agencies-open"></span></p>
             </div>
             <div class="col  col-12 col-lg-4"id="busses">
                 <p>Hosted Sites: <span id="busses-in"></span></p>
@@ -316,7 +316,7 @@
     <footer class="page-footer font-small indigo bg-dark" id="footer">
 
         <!-- Footer Links -->
-        <div class="container text-center text-md-left">
+        <div class="container-fluid text-center text-md-left">
             <div class="row">
                 <div class="col-md-3  mx-auto">
                     <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
@@ -436,7 +436,7 @@
     }, 5);
 
     var intervalId2 = setInterval(() => {
-        if (agencies === 20) {
+        if (agencies === 100) {
             clearInterval(intervalId2);
         //    document.getElementById("agencies").style.borderTop = "2px solid green";
             // document.getElementById("agencies").style.borderBottom = "2px solid green"; 
@@ -444,7 +444,7 @@
 
         document.getElementById("agencies-open").innerHTML = agencies;
 
-        agencies += 1;
+        agencies += 5;
     }, 100);
 
     var intervalId3 = setInterval(() => {
