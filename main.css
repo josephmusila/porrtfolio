@@ -8,7 +8,7 @@ nav{
 }
 
 #name-desc{
-    font-size: 30px;
+    /* font-size: 30px; */
     color: white;
 }
 .skills-header{
@@ -19,7 +19,7 @@ nav{
     color: orangered;
 }
 #name{
-    font-size: 40px;
+    /* font-size: 40px; */
     font-weight: bold;
     color: orange;
 }
