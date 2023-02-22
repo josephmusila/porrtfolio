@@ -6,7 +6,9 @@ nav{
     width: 100%;
 
 }
-
+#note{
+    font-size: 16px;
+}
 #name-desc{
     font-size: 20px ;
     color: white;
