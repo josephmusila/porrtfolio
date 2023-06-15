@@ -41,6 +41,14 @@ input {
   color: orangered;
 }
 
+#name a{
+  /* text-decoration: none; */
+}
+jobsnap-link{
+  font-size: 30px;
+  color: blue;
+}
+
 #dashboard {
   margin-top: 100px;
 }
