@@ -5,18 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joseph Jela Musila Portfolio</title>
-    <meta name="description" content="Hello i'm Joseph Jela Musila. A software engineer and ICT tecnician profficient in  mobile and web development.">
+    <meta name="description"
+        content="Hello i'm Joseph Jela Musila. A software engineer and ICT tecnician profficient in  mobile and web development.">
     <link rel="icon" href="./uploads/icon.png">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="main.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
-    </script>
-  <!--   ui -->
+        </script>
+    <!--   ui -->
     <link rel="stylesheet" href="JQuery/jquery-ui.min.css">
-    
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
@@ -25,10 +27,10 @@
 
     <!-- loader -->
     <div class="inline">
-        <div  class="center">
+        <div class="center">
 
-        </div>  
-           <p class="spinner" id="spinner"><i class="fa fa-spinner fa-5x"></i></p>
+        </div>
+        <p class="spinner" id="spinner"><i class="fa fa-spinner fa-5x"></i></p>
     </div>
 
     <!-- loader -->
@@ -41,14 +43,14 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-    
+
                 <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item active">
                             <a class="nav-link" aria-current="page" href="index.html" id="active">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#skills"  >Skills</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#projects" id="routmes">Projects</a>
@@ -56,14 +58,14 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#skills">Resume</a>
                         </li>
-                        
-                        
+
+
                         <li class="nav-item">
                             <a class="nav-link " href="#footer" tabindex="-1">Contacts</a>
                         </li>
-                        
+
                     </ul>
-    
+
                     <form class="d-flex">
                         <p id="nav-cont">Call: 0745787487</p>
                     </form>
@@ -72,314 +74,291 @@
         </nav>
     </div>
     <div class="container" id="dashboard">
-       
+
         <div class="row">
             <div class="col-sm-12 col-lg-6">
-                <div class="intro" >
-                    <p>Hello I'm <br><span id="name">Joseph Musila</span><br></p>
+                <div class="intro">
+                    <p> <br><span id="name">Joseph Musila</span><br></p>
 
-                    <p id="name-desc">A software Developer and IT Technican</p> 
+                    <p id="name-desc">A software Developer and IT Technican</p>
 
 
                     <!-- <p id="note">(Site Still Under Construction 😉😉image.png😉😉)</p> -->
-                    <p id="name">Developer of <a href="https://jobsnap.vivatechy.com/api">JobSnap Kenya</a> <span id="jobsnap-link"></span></p>
+                    <p id="intro-main">Developer of <a href="https://jobsnap.vivatechy.com/api">JobSnap Kenya </a> <span
+                            id="jobsnap-link"></span></p>
 
 
 
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-6">
+            <div class="col-sm-12 col-lg-6" id="profile-image">
                 <img src="./uploads/profile2.png" alt="">
             </div>
         </div>
-     
-       
+
+
     </div>
     <div class="container-fluid">
         <div class="row" id="tallies">
             <div class=" col-sm-12 col-lg-4 btn btn-outline-warning" id="tickets">
-                <p >Projects Completed: <span id="tickets-booked"></span></p>
+                <p>Projects Completed: <span id="tickets-booked"></span></p>
             </div>
             <div class="col  col-12 col-lg-4 btn btn-outline-warning" id="agencies">
-                <p >Repositories: <span id="agencies-open"></span>+</p>
+                <p>Repositories: <span id="agencies-open"></span>+</p>
             </div>
-            <div class="col  col-12 col-lg-4 btn btn-outline-warning"id="busses">
+            <div class="col  col-12 col-lg-4 btn btn-outline-warning" id="busses">
                 <p>Hosted Sites: <span id="busses-in"></span></p>
             </div>
         </div>
     </div>
     <!-- skils -->
-    <section id="skills">
-        <div class="container">
+    <section id="skills" class="container-fluid">
+        <div class="container-fluid">
             <p class="skills-header">Skills</p>
 
-            <a href="/uploads/Joseph_Musila CV.pdf" class="btn btn-outline-success w-100" download="Joseph Musila CV">Dowload my CV here</a>
+            <a href="/uploads/Joseph_Musila CV.pdf" class="btn btn-outline-primary w-100"
+                download="Joseph Musila CV">Dowload my CV here</a>
             <hr>
-        <div class="row">
-            <div class="col-lg-6 col-sm-12">
-                <div class="container" id="skills-container">
-                    <p class="skills-header">Mobile App Developer</p>
-                    <p class="skills-description">An experienced flutter developer. I can intergrate 
-                        different backends to the app including firebase, and all other API endpoints.<br>
-                        I can work with different state management tools including 
-                        <ul>
-                            <li>Provider</li>
-                            <li>Getx</li>
-                            <li>Bloc and Cubit</li>
-                        </ul>
-                    </p>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12" id="skills-row">
+                    <div id="skills-container">
+                        <p class="skills-header">Mobile App Developer</p>
+                        <p class="skills-description">An experienced flutter developer. <br>I can intergrate
+                            different backends to the app including firebase, and all other API endpoints.<br>
+                            Other skills include:<br><br>
+
+                            Testing<br>
+                            Deploymnet<br>
+                            Design<br>
+
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-6 col-sm-12">
-                <div class="container" id="skills-container">
-                    <p class="skills-header">Backend Developer</p>
-                    <p class="skills-description">An experienced backend developer who 
-                        can work with technologies such as <br>
-                        <ul>
-                            <li>Django</li>
-                            <li>NodeJs</li>
-                        </ul>
-                        Creating Apis for other applications.<br>
-                        Intergrating Payment Gateways.
-                    </p>
+                <div class="col-lg-6 col-sm-12" id="skills-row">
+                    <div id="skills-container">
+                        <p class="skills-header">Backend and Web Developer</p>
+                        <p class="skills-description">An experienced web and backend developer who
+                            can work with technologies such as <br><br>
+                            Django<br>
+                            Javascript and its frameworks<br>
+
+                            NodeJs<br><br>
+
+                            Pyments Intergration<br>
+                            Real Time Applications<br>
+
+
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 col-sm-12">
-                    <div class="container" id="skills-container">
+                <div class="col-lg-6 col-sm-12" id="skills-row">
+                    <div id="skills-container">
                         <p class="skills-header">IoT Developer</p>
                         <p class="skills-description">Experience with microcontrollers and microprocessors. <br>
-                            Certified in working with Arduino and Raspbery pi.
-                            <ul>
-                                <li>GSM modules</li>
-                                <li>Bluetooth and Wifi modules</li>
-                            </ul>
+                            Certified in working with Arduino and Raspbery pi.<br><br>
+
+                            GSM modules<br>
+                            Bluetooth and Wifi modules<br><br>
+
                             Integrating with mobile apps<br>
-                            Intergrating with custom backends
+                            Intergrating with custom backends<br>
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-12">
-                    <div class="container" id="skills-container">
+                <div class="col-lg-6 col-sm-12" id="skills-row">
+                    <div id="skills-container">
                         <p class="skills-header">Cyber Security Expert</p>
-                        <p class="skills-description">Experience Penetration tester <br>
+                        <p class="skills-description">Experience Penetration tester <br><br>
 
-                            <ul>
-                                <li class="skills-description" >Working with penetration tools</li>
-                                <li class="skills-description">Programming penetration test tools</li>
-                            </ul>
+
+                            Working with penetration tool<br>
+                            Programming penetration test tools<br><br>
+
                             Implementing preventive measures for networks from breach<br>
-                            Checking vulnerabilities in computers
+                            Checking vulnerabilities in computers<br>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
+
     </section>
-<hr>
+    <hr>
 
     <section id="projects" class="container-fluid">
-        
-            <p class="projects-title">
-                Sample Projects
-            </p>
-           <div class="row">
-            <div class="col-lg-3 col-sm-12 col-md-6">
-                <div class="card">
-                    <h4 class="card-title"><a>Bikes Rental App</a></h4>
-                    <!-- Card image -->
-                   <div class="image-wrapper">
-                    <img class="card-img-top" src="uploads/bikes.jpg" alt="Card image cap">
-                   </div>
-                  
-                    <!-- Card content -->
-                    <div class="card-body">
-                        <hr style="color: black; height: 2px; background-color: black;">
-                      <!-- Title -->
-                     
-                      <!-- Text -->
-                      <p class="card-text">This is and android/IoS mobile application for renting and repairing bikes.<br>
-                        Its has the following features:
-                        <ul>
-                            <li>Customer and renters registration</li>
-                            <li>Addition and management of bikes by renters</li>
-                            <li>Payments of rented bikes</li>
-                        </ul>
-                        It utilizes the following technologies
-                        <li>Flutter for front end</li>
-                        <li>Python for backend</li></p>
-                      <!-- Button -->
-                      <a href="/uploads/bikes.apk" class="btn btn-primary" download="bikes app">Download Apk</a>
-                  
-                    </div>
-                  
-                  </div>
-            </div>
-            <div class="col-lg-3 col-sm-12 col-md-6">
-                <div class="card">
-                    <h4 class="card-title"><a>Smart Farm IoT  Information App</a></h4>
 
-                    <!-- Card image -->
-                   <div class="image-wrapper">
-                    <img class="card-img-top" src="uploads/farm.jpg" alt="Card image cap">
-                   </div>
-                  
-                    <!-- Card content -->
-                    <div class="card-body">
-                        <hr style="color: black; height: 2px; background-color: black;">
-                      <!-- Title -->
-                      
-                      <!-- Text -->
-                      <p class="card-text">This is and android/IoS mobile application for monitoring an IoT based 
-                        farm system
-                        <ul>
-                            <li>Data collection from field sensors</li>
-                            <li>Admin Panel for data management</li>
-                            <li>Generation of reports from the collected Data</li>
-                            <li>Remote control of the farm+ devices such as pumps and lighting</li>
-                            
-                        </ul>
-                        It utilizes the following technologies
-                        <li>Flutter for mobile app</li>
-                        <li>Python for backend</li>
-                        <li>Mysql database</li>
-                        <li>Arduino technology for the electronics</li></p>
-                      <!-- Button -->
-                      <a href="/uploads/smart farm.apk" class="btn btn-primary" download="smart farm">Download Apk</a>
-                    
-                  
-                    </div>
-                  
-                  </div>
-            </div>
-            <div class="col-lg-3 col-sm-12 col-md-6">
+        <p class="projects-title">
+            Sample Projects
+        </p>
+        <div class="row" id="project-item">
+            <div class="col-lg-6 col-sm-12 col-md-6">
+                <h4 class="card-title"><a>Bikes Rental App</a></h4>
                 <div class="card">
-                    <h4 class="card-title"><a>Kyeni School App</a></h4>
-
-                    <!-- Card image -->
-                   <div class="image-wrapper">
-                    <img class="card-img-top" src="uploads/kyeni.png" alt="Card image cap">
-                   </div>
-                  
-                    <!-- Card content -->
-                    <div class="card-body">
-                        <hr style="color: black; height: 2px; background-color: black;">
-                      <!-- Title -->
-                      
-                      <!-- Text -->
-                      <p class="card-text">This is and android/IoS mobile application which is used by lecturers and students to access and manage their profile ac
-                        It has the following features.
-                        <ul>
-                            <li>Students Portal</li>
-                            <li>Lectureres Portal</li>
-                            <p style="font-size: 20;font-weight: bold;text-decoration: underline;">Backend Features</p>
-                            <li>Admin Panel for Student management</li>
-                            <li>Exam management</li>
-                            <li>Student registration</li>
-                            
-                        </ul>
-                        It utilizes the following technologies
-                        <li>Flutter for mobile app</li>
-                        <li>Python for backend</li>
-                        <li>Postgress database</li>
-                        
-                      <!-- Button -->
-                      <a href="/uploads/kyeni.apk" class="btn btn-primary" download="kyeni app">Download Apk</a>
-                    
-                  
+                    <div class="project-image-wrapper">
+                        <img class="card-img-top" src="uploads/bikes/bike1.png" alt="Card image cap">
                     </div>
-                  
-                  </div>
-            </div>
-            <div class="col-lg-3 col-sm-12 col-md-6">
-                <div class="card">
-                    <h4 class="card-title"><a>Bus Booking Website</a></h4>
-                    <!-- Card image -->
-                   <div class="image-wrapper">
-                    <img class="card-img-top" src="uploads/buss.png" alt="Card image cap">
-                   </div>
-                  
-                    <!-- Card content -->
-                    <div class="card-body">
-                        <hr style="color: black; height: 2px; background-color: black;">
-                      <!-- Title -->
-                     
-                      <!-- Text -->
-                      <p class="card-text">This website allows you to book vehicles for different routes and destinations.
-
-                        <ul>
-                            <li>User regtration</li>
-                            <li>Route Selection</li>
-                            <li>Bus selection</li>
-                        </ul>
-                        It utilizes the following technologies
-                        <li>html and css</li>
-                        <li>Javascript and Jquery</li></p>
-                      <!-- Button -->
-                      <a href="https://safari.vivatechy.com/index.html" class="btn btn-primary">Visit Site</a>
-                  
-                    </div>
-                  
-                  </div>
-                  
-            </div>
-           </div>
-            <div class="row">
-                <div class="col">
-                    <div class="card">
-                        <h4 class="card-title"><a>Property Sale Website</a></h4>
-                        <!-- Card image -->
-                       <div class="image-wrapper">
-                        <img class="card-img-top" src="uploads/pride.png" alt="Card image cap">
-                       </div>
-                      
-                        <!-- Card content -->
-                        <div class="card-body">
-                            <hr style="color: black; height: 2px; background-color: black;">
-                          <!-- Title -->
-                         
-                          <!-- Text -->
-                          <p class="card-text">This website allows you to purchase and sell houses around Nairobi.<br>
-                                It has the following features
-                            <ul>
-                                <li>Property Listing</li>
-                                <li>Property addition</li>
-                                <li>Property management</li>
-                            </ul>
-                            It utilizes the following technologies
-                            <li>html and css</li>
-                            <li>Javascript and Jquery</li>
-                            <li>Python Backend</li>
-                            <li>Mysql database</li>
-                        
-                        </p>
-                          <!-- Button -->
-                          <a href="http://mansions.vivatechy.com/" class="btn btn-primary">Visit Site</a>
-                      
-                        </div>
-                      
-                      </div>
                 </div>
             </div>
-       
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <p class="card-text">This is and android/IoS mobile application for renting and repairing bikes.<br>
+                    Its has the following features:
+                <ul>
+                    <li>Customer and renters registration</li>
+                    <li>Addition and management of bikes by renters</li>
+                    <li>Payments of rented bikes</li>
+                </ul>
+                It utilizes the following technologies
+                <li>Flutter for front end</li>
+                <li>Python for backend</li>
+                </p>
+                <!-- Button -->
+                <a href="/uploads/bikes.apk" class="btn btn-primary" download="bikes app">Download Apk</a>
+
+            </div>
+        </div>
+
+        <div class="row" id="project-item">
+            <div class="col-lg-6 col-sm-12 col-md-6">
+                <h4 class="card-title"><a>Smart Farm IoT Information App</a></h4>
+                <div class="card">
+                    <div class="project-image-wrapper">
+                        <img class="card-img-top" src="uploads/farm.jpg" alt="Card image cap">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <p class="card-text">This is and android/IoS mobile application for monitoring an IoT based
+                    farm system
+                <ul>
+                    <li>Data collection from field sensors</li>
+                    <li>Admin Panel for data management</li>
+                    <li>Generation of reports from the collected Data</li>
+                    <li>Remote control of the farm+ devices such as pumps and lighting</li>
+
+                </ul>
+                It utilizes the following technologies
+                <li>Flutter for mobile app</li>
+                <li>Python for backend</li>
+                <li>Mysql database</li>
+                <li>Arduino technology for the electronics</li>
+                </p>
+                <!-- Button -->
+                <a href="/uploads/smart farm.apk" class="btn btn-primary" download="smart farm">Download Apk</a>
+
+            </div>
+        </div>
+
+        <div class="row" id="project-item">
+            <div class="col-lg-6 col-sm-12 col-md-6">
+                <h4 class="card-title"><a>Kyeni School App</a></h4>
+                <div class="card">
+                    <div class="project-image-wrapper">
+                        <img class="card-img-top" src="uploads/kyeni.png" alt="Card image cap">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <p class="card-text">This is and android/IoS mobile application which is used by lecturers and
+                    students to access and manage their profile ac
+                    It has the following features.
+                <ul>
+                    <li>Students Portal</li>
+                    <li>Lectureres Portal</li>
+                    <p style="font-size: 20;font-weight: bold;text-decoration: underline;">Backend Features</p>
+                    <li>Admin Panel for Student management</li>
+                    <li>Exam management</li>
+                    <li>Student registration</li>
+
+                </ul>
+                It utilizes the following technologies
+                <li>Flutter for mobile app</li>
+                <li>Python for backend</li>
+                <li>Postgress database</li>
+
+                <!-- Button -->
+                <a href="/uploads/kyeni.apk" class="btn btn-primary" download="kyeni app">Download Apk</a>
+
+            </div>
+        </div>
+
+        <div class="row" id="project-item">
+            <div class="col-lg-6 col-sm-12 col-md-6">
+                <h4 class="card-title"><a>Bus Booking Website</a></h4>
+                <div class="card">
+                    <div class="project-image-wrapper" id="web-image">
+                        <img class="card-img-top" src="uploads/buss.png" alt="Card image cap">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <p class="card-text">This website allows you to book vehicles for different routes and destinations.
+
+                    <ul>
+                        <li>User regtration</li>
+                        <li>Route Selection</li>
+                        <li>Bus selection</li>
+                    </ul>
+                    It utilizes the following technologies
+                    <li>html and css</li>
+                    <li>Javascript and Jquery</li>
+                    </p>
+                    <!-- Button -->
+                    <a href="https://safari.vivatechy.com/index.html" class="btn btn-primary">Visit Site</a>
+
+            </div>
+        </div>
+
+
+        <div class="row" id="project-item">
+            <div class="col-lg-6 col-sm-12 col-md-6">
+                <h4 class="card-title"><a>Property Sale Website</a></h4>
+                <div class="card">
+                    <div class="project-image-wrapper" id="web-image">
+                        <img class="card-img-top" src="uploads/pride.png" alt="Card image cap">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <p class="card-text">This website allows you to purchase and sell houses around Nairobi.<br>
+                    It has the following features
+                <ul>
+                    <li>Property Listing</li>
+                    <li>Property addition</li>
+                    <li>Property management</li>
+                </ul>
+                It utilizes the following technologies
+                <li>html and css</li>
+                <li>Javascript and Jquery</li>
+                <li>Python Backend</li>
+                <li>Mysql database</li>
+
+                </p>
+                <!-- Button -->
+                <a href="http://mansions.vivatechy.com/" class="btn btn-primary">Visit Site</a>
+
+            </div>
+        </div>
     </section>
     <hr>
     <!-- Footer -->
 
-    <footer class="page-footer font-small indigo bg-dark" id="footer">
+    <footer class="page-footer font-small indigo " id="footer">
 
         <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left">
+        <div class="container-fluid text-md-left">
             <div class="row">
                 <div class="col-md-3  mx-auto">
                     <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
                     <ul class="list-unstyled">
+                        <hr class="clearfix w-100 d-md-none">
                         <li>
-                            <a href="https://github.com/josephmusila">github</a>
+                            <a href="https://github.com/josephmusila">Github</a>
                         </li>
+                        <hr class="clearfix w-100 d-md-none">
                         <li>
-                            <a href="#!">Instagram</a>
+                            <a href="#!">Phone 0745787487</a>
                         </li>
                         <li>
                             <a href="#!">Twitter</a>
@@ -390,28 +369,11 @@
                     </ul>
 
                 </div>
+              
+               
                 <hr class="clearfix w-100 d-md-none">
                 <div class="col-md-3 mx-auto">
-                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">QUICK LINKS</h5>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">IoT</a>
-                        </li>
-                        <li>
-                            <a href="#!">Mobile Apps</a>
-                        </li>
-                        <li>
-                            <a href="#!">Websites</a>
-                        </li>
-                        <li>
-                            <a href="#!">Cyber Security</a>
-                        </li>
-                    </ul>
-
-                </div>
-                <hr class="clearfix w-100 d-md-none">
-                <div class="col-md-3 mx-auto">
-                     <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Emails</h5>
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Emails</h5>
 
                     <ul class="list-unstyled">
                         <li>
@@ -429,28 +391,8 @@
                     </ul>
 
                 </div>
-                 <hr class="clearfix w-100 d-md-none">
-                   <div class="col-md-3 mx-auto">
 
-                    <!-- Links -->
-                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contacts</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">0745787487</a>
-                        </li>
-                        <li>
-                            <a href="#!">0710821966</a>
-                        </li>
-                        <li>
-                            <a href="#!">0718849492</a>
-                        </li>
-                        <li>
-                            <a href="#!">0759836464</a>
-                        </li>
-                    </ul>
-
-                </div>
+            
                 <!-- Grid column -->
 
             </div>
@@ -468,64 +410,64 @@
     </footer>
 
     <!-- Footer -->
-<!-- end of html file -->
+    <!-- end of html file -->
 
-   <!--  loading tallies in home screen -->
+    <!--  loading tallies in home screen -->
     <script>
 
-        document.onreadystatechange = function() {
+        document.onreadystatechange = function () {
             if (document.readyState !== "complete") {
                 document.querySelector(
-                  "body").style.visibility = "hidden";
+                    "body").style.visibility = "hidden";
                 document.querySelector(
-                  "#spinner").style.visibility = "visible";
+                    "#spinner").style.visibility = "visible";
             } else {
                 document.querySelector(
-                  "#spinner").style.display = "none";
+                    "#spinner").style.display = "none";
                 document.querySelector(
-                  "body").style.visibility = "visible";
+                    "body").style.visibility = "visible";
             }
         };
-        
-    let tickets = 0;
-    let agencies = 0;
-    let busses = 0;
+
+        let tickets = 0;
+        let agencies = 0;
+        let busses = 0;
 
 
-    var intervalId = setInterval(() => {
-        if (tickets === 60) {
-            clearInterval(intervalId);
-            // document.getElementById("tickets").style.borderBottom = "2px solid blue";
-            // document.getElementById("tickets").style.borderTop = "2px solid blue"; 
-        }
-        document.getElementById("tickets-booked").innerHTML = tickets;
-        tickets += 5;
+        var intervalId = setInterval(() => {
+            if (tickets === 60) {
+                clearInterval(intervalId);
+                // document.getElementById("tickets").style.borderBottom = "2px solid blue";
+                // document.getElementById("tickets").style.borderTop = "2px solid blue"; 
+            }
+            document.getElementById("tickets-booked").innerHTML = tickets;
+            tickets += 5;
 
-    }, 5);
+        }, 5);
 
-    var intervalId2 = setInterval(() => {
-        if (agencies === 100) {
-            clearInterval(intervalId2);
-        //    document.getElementById("agencies").style.borderTop = "2px solid green";
-            // document.getElementById("agencies").style.borderBottom = "2px solid green"; 
-        }
+        var intervalId2 = setInterval(() => {
+            if (agencies === 100) {
+                clearInterval(intervalId2);
+                //    document.getElementById("agencies").style.borderTop = "2px solid green";
+                // document.getElementById("agencies").style.borderBottom = "2px solid green"; 
+            }
 
-        document.getElementById("agencies-open").innerHTML = agencies;
+            document.getElementById("agencies-open").innerHTML = agencies;
 
-        agencies += 5;
-    }, 100);
+            agencies += 5;
+        }, 100);
 
-    var intervalId3 = setInterval(() => {
-        if (busses === 5) {
-            clearInterval(intervalId3);
-        //    document.getElementById("busses").style.borderBottom = "2px solid red";
-            // document.getElementById("busses").style.borderTop = "2px solid red"; 
-        }
+        var intervalId3 = setInterval(() => {
+            if (busses === 5) {
+                clearInterval(intervalId3);
+                //    document.getElementById("busses").style.borderBottom = "2px solid red";
+                // document.getElementById("busses").style.borderTop = "2px solid red"; 
+            }
 
-        document.getElementById("busses-in").innerHTML = busses;
+            document.getElementById("busses-in").innerHTML = busses;
 
-        busses += 1;
-    }, 70);
+            busses += 1;
+        }, 70);
 
 
     </script>
